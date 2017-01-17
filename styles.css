@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+  background-color: #FAFAFA;
+}
+
+.mdl-card {
+  width: auto;
+}
+
+.mdl-layout-title {
+  margin-left:20px;
+}
+
+.responsive_img {
+  margin-top:-5px;
+}
+
+.mdl-card__title {
+  color:#fff;
+  position: relative;
+  height: 250px;
+}
+
+.mini-footer {
+  color: #9e9e9e;
+  background-color: #424242;
+  padding: 3px 16px;
+}
+
+.mdl-card__title:after {
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  top:0;
+  left:0;
+  opacity:.5;
+}
+
+.mdl-card__title-text {
+  position: absolute;
+  z-index: 2;
+  bottom: 12px;
+}
+
+.mdl-card__supporting-text p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   line-height: 18px;        /* fallback */
+   max-height: 54px;       /* fallback */
+  min-height: 54px;
+   margin-bottom: 0;
+}
+
+.mvvm_kit {
+    background: url('https://stfalcon.com/uploads/images/586bc9ea08a59.png') center / cover;
+}
+
+.multi-image-view {
+    background: url('https://camo.githubusercontent.com/d29a4e2a0dc99b1a114f43fb201e1080e6aaa462/687474703a2f2f692e696d6775722e636f6d2f5334516f4b56422e676966') center / cover;
+}
+
+.fresco-viewer {
+    background: url('https://github.com/stfalcon-studio/FrescoImageViewer/raw/master/images/fresco_image_viewer_demo.gif') center / cover;
+}
+
+.content-manager {
+    background: url('https://socialmediaimpact.com/wp-content/uploads/2014/01/Mobile-Marketing2.jpg') center / cover;
+}
+
+.picker-dialog {
+    background: url('https://github.com/stfalcon-studio/UniversalPickerDialog/raw/master/images/picker_dialog_demo.gif') center / cover;
+}
+
+.auth-helper {
+    background: url('https://qph.ec.quoracdn.net/main-qimg-dc65ab5fde59d6f66cd88bcf89a6791a?convert_to_webp=true') center / cover;
+}
+
+.sms-catcher {
+    background: url('https://camo.githubusercontent.com/64fdbaf413bcb5dc688e6112fee2353535008870/687474703a2f2f692e696d6775722e636f6d2f374b7a7a6b357a2e676966') center / cover;
+}
