@@ -60,6 +60,10 @@ body {
     background: url('https://stfalcon.com/uploads/images/586bc9ea08a59.png') center / cover;
 }
 
+.chat_kit {
+    background: url('https://raw.githubusercontent.com/stfalcon-studio/ChatKit/master/images/HEADER.png') center / cover;
+}
+
 .multi-image-view {
     background: url('https://camo.githubusercontent.com/d29a4e2a0dc99b1a114f43fb201e1080e6aaa462/687474703a2f2f692e696d6775722e636f6d2f5334516f4b56422e676966') center / cover;
 }
